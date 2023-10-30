@@ -27,8 +27,13 @@ public class Bioskop24 {
         // }
         // System.out.println("penonton pada baris ke-3: ");
 
-        for (int i = 0; i < penonton.length; i++) {
-            System.out.println("Penonton pada baris ke-"+ (i+1)+": "+String.join(", ", penonton[i]));
+// <<<<<<< divil
+//         for (int i = 0; i < penonton.length; i++) {
+//             System.out.println("Penonton pada baris ke-"+ (i+1)+": "+String.join(", ", penonton[i]));
+// =======
+        for (String[] barisPenonton : penonton) {
+            System.out.println("Panjang baris :"+barisPenonton.length);
+// >>>>>>> main
         }
 
         // System.out.println(penonton[0].length);
